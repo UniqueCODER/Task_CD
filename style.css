@@ -1,0 +1,87 @@
+*{
+    margin: 0;
+    padding: 0;
+    color: black;
+}
+body{
+    background-color: #eeeeee;
+}
+h3{
+    text-align: center;
+}
+h1{
+    color: blue;
+}
+.container{
+    margin: 0 auto;
+    padding: 20px;
+    border: 2px solid black;
+    display: block;
+    padding-left: 40px;  
+}
+    .left{
+        background-color: #689bff;  
+    }
+    .right{
+        background-color: #fecb00;   
+    }
+    .center{
+        background-color: #fd9a98;   
+    }
+    .bottom{
+        background-color: #1cb026;   
+    }
+.right, .left, .bottom, .center{
+    height: 60px;
+    width: 60px;
+    text-align: center;
+    border: 1px solid black;
+    display: inline-block;
+    padding: 1.3px; 
+    font-size: 12px;
+    margin: 1px;
+    color: black;
+}
+.empty,.empty1,.empty2{
+    text-align: center;
+    border: 1px solid #eeeeee;
+    background-color: #eeeeee;
+    height: 60px;
+}
+.empty{
+    width: 127px;
+    display: inline-block;
+    padding: 2px; 
+    margin: 1.3px;
+    color: #eeeeee;
+}
+.empty1{
+    width: 1121px;
+    display: inline-block;
+    padding: 1.3px; 
+    font-size: 12px;
+    color: #eeeeee;
+}
+.empty2{
+    width: 695px;
+    display: inline-block;
+    padding: 1.3px; 
+    font-size: 12px;
+    margin:2px;
+    color: #eeeeee;
+   
+}
+    .empty1 h1{
+        color: #eeeeee;
+    }
+    .empty2 h1{
+        color: #eeeeee;
+    }
+    .empty h1{
+        color: red;
+        font-size: 18px;
+    }
+    .empty h2{
+        color: #eeeeee;
+    }   
+    
